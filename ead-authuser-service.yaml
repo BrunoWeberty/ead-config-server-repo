@@ -38,6 +38,18 @@ ead:
   broker:
     exchange:
       userEvent: ead.userevent
+      
+authuser:
+  refreshScope:
+    name: Bruno Weberty
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - refresh
+          - health
 
 resilience4j:
   circuitbreaker:
