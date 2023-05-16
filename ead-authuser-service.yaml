@@ -40,6 +40,10 @@ ead:
     exchange:
       userEvent: ead.userevent
 
+authuser:
+  refreshscope:
+    name: Bruno Weberty
+
 resilience4j:
   circuitbreaker:
     instances:
