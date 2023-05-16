@@ -6,8 +6,6 @@ server:
 spring:
   application:
     name: ead-authuser-service
-  config:
-    import: 'configserver:'
   datasource:
     url: jdbc:postgresql://localhost:5432/ead-authuser-v2
     username: postgres
@@ -26,6 +24,7 @@ spring:
       enabled: always
   rabbitmq:
     addresses: amqps://izkhkblw:bRmAhYrhR0aG3Cim38W4ZY0h5URG4e28@whale.rmq.cloudamqp.com/izkhkblw
+    
 logging:
   level:
     com.ead: TRACE
